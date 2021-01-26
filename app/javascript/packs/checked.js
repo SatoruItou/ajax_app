@@ -8,6 +8,6 @@ function check() {
       XHR.responseType = "json";
       XHR.send();
     });
-   });
+  });
 }
 window.addEventListener("load", check);
